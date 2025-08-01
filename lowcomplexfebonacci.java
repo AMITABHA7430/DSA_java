@@ -6,7 +6,7 @@ class Main {
         double phi = (1 + sqrt5) / 2;
         double psi = (1 - sqrt5) / 2;
         
-        double fib = (Math.pow(phi, n) - Math.pow(psi, n)) / sqrt5;
+        double fib = (Math.pow(phi, n) - Math.pow(psi, n)) / sqrt5;   //here formula use is that f(n)=((1+(root5/2))/root5)-((1-(root5/2))/root5)
         return (int)Math.round(fib);  // Rounding for accuracy
     }
 
