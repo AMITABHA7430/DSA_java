@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Magic {
 
     public static void main(String[] args) {
-        Scanner ami = new Scanner(System.in); // ✅ Corrected 'scanner' to 'Scanner' and fixed typo 'Syatem'
+        Scanner ami = new Scanner(System.in);
 
         int n, base = 5;
         n = ami.nextInt();
